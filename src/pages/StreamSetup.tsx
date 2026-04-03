@@ -22,9 +22,9 @@ interface DrawRequest {
 }
 
 const MOCK_FAMILY: FamilyMember[] = [
-  { id: "1", name: "Maria García", relation: "Mother", avatar: "MG" },
-  { id: "2", name: "Carlos García", relation: "Brother", avatar: "CG" },
-  { id: "3", name: "Sofia García", relation: "Sister", avatar: "SG" },
+  { id: "1", name: "Amina Okafor", relation: "Mother", avatar: "AO" },
+  { id: "2", name: "Raj Patel", relation: "Brother", avatar: "RP" },
+  { id: "3", name: "Luz Fernández", relation: "Sister", avatar: "LF" },
 ];
 
 const MOCK_REQUESTS: DrawRequest[] = [
