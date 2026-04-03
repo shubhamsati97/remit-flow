@@ -15,11 +15,8 @@ const Login = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center px-6">
       {/* Logo */}
-      <div className="flex items-center gap-2 mb-2">
-        <div className="w-10 h-10 rounded-xl bg-primary/15 flex items-center justify-center">
-          <Zap className="w-5 h-5 text-primary" />
-        </div>
-        <span className="text-2xl font-bold text-foreground">RemitFlow</span>
+      <div className="mb-2">
+        <img src={logo} alt="RemitFlow" className="h-14 object-contain" />
       </div>
       <p className="text-sm text-muted-foreground mb-10 text-center max-w-xs">
         Stream your earnings into stablecoins. Protect what you earn.
