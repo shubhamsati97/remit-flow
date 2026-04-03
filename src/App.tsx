@@ -9,6 +9,7 @@ import StreamSetup from "@/pages/StreamSetup";
 import Transactions from "@/pages/Transactions";
 import WalletPage from "@/pages/WalletPage";
 import ProfilePage from "@/pages/ProfilePage";
+import LendingMarketplace from "@/pages/LendingMarketplace";
 import Login from "@/pages/Login";
 import NotFound from "@/pages/NotFound";
 
