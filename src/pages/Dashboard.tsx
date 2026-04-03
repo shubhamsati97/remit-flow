@@ -22,7 +22,7 @@ const Dashboard = () => {
       <div className="flex items-center justify-between mb-2">
         <div>
           <p className="text-sm text-muted-foreground">Welcome back</p>
-          <h1 className="text-xl font-bold text-foreground">FlowStable</h1>
+          <h1 className="text-xl font-bold text-foreground">RemitFlow</h1>
         </div>
         <div className="w-9 h-9 rounded-full bg-muted flex items-center justify-center text-sm font-semibold text-foreground">
           JD

@@ -9,6 +9,7 @@ import StreamSetup from "@/pages/StreamSetup";
 import Transactions from "@/pages/Transactions";
 import WalletPage from "@/pages/WalletPage";
 import ProfilePage from "@/pages/ProfilePage";
+import LendingMarketplace from "@/pages/LendingMarketplace";
 import Login from "@/pages/Login";
 import NotFound from "@/pages/NotFound";
 
@@ -27,6 +28,7 @@ const App = () => (
             <Route path="/stream" element={<StreamSetup />} />
             <Route path="/transactions" element={<Transactions />} />
             <Route path="/wallet" element={<WalletPage />} />
+            <Route path="/lending" element={<LendingMarketplace />} />
             <Route path="/profile" element={<ProfilePage />} />
           </Route>
           <Route path="*" element={<NotFound />} />
