@@ -1,3 +1,2 @@
-# Welcome to your Lovable project
+# Remit Flow
 
-TODO: Document your project here
