@@ -28,6 +28,7 @@ const App = () => (
             <Route path="/stream" element={<StreamSetup />} />
             <Route path="/transactions" element={<Transactions />} />
             <Route path="/wallet" element={<WalletPage />} />
+            <Route path="/lending" element={<LendingMarketplace />} />
             <Route path="/profile" element={<ProfilePage />} />
           </Route>
           <Route path="*" element={<NotFound />} />
